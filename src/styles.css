@@ -1,0 +1,67 @@
+:root {
+  --background: rgb(210, 252, 210);
+  --text: rgb(0, 50, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: var(--text);
+}
+
+header {
+  margin: 2rem 0;
+}
+
+.github {
+  margin: 0.5rem;
+}
+
+input {
+  width: 80%;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid black;
+}
+
+.output {
+  margin: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.fruitDiv {
+  margin: 1rem 0;
+}
+
+.fruitDiv span {
+  margin: 0.5rem;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+footer a,
+.github a {
+  color: inherit;
+}
