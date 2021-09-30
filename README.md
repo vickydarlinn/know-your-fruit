@@ -1,2 +1,3 @@
 # know-your-fruit
-Created with CodeSandbox
+Know the fruit name by clicking on that emoji.
+## [Live Preview](https://b6mfx.csb.app/)
